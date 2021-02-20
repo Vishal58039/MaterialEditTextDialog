@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 setNegativeButton("Cancel"){text,isValidated, dialog ->
-                    dialog.dismiss() // manually dismiss dialog is important
+                    dialog.dismiss() // manually dismiss dialog is important.
                 }
             }
             editTextDialog.show()
